@@ -16,6 +16,7 @@ export function increment(index) {
 
 // add comment
 export function postComment(postId, author, comment) {
+    console.log('Dispatching add comment')
     return {
         type: 'ADD_COMMENT',
         // passing payload
